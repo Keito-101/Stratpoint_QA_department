@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Login_functionality">
+        <classes>
+            <class name="SwagLabs_Automation.Login_functionality"/>
+        </classes>
+    </test>
+    <test name="Product_Listing">
+        <classes>
+            <class name="SwagLabs_Automation.Product_Listing"/>
+        </classes>
+    </test>
+    <test name="Cart_functionality">
+        <classes>
+            <class name="SwagLabs_Automation.Cart_functionality"/>
+        </classes>
+    </test>
+    <test name="Product_Detail">
+        <classes>
+            <class name="SwagLabs_Automation.Product_detail"/>
+        </classes>
+    </test>
+    <test name="Cart_Page_Verification">
+        <classes>
+            <class name="SwagLabs_Automation.Cart_Page_Verification"/>
+        </classes>
+    </test>
+    <test name="Checkout_Process_Verification">
+        <classes>
+            <class name="SwagLabs_Automation.Checkout_Process_Verification"/>
+        </classes>
+    </test>
+    <test name="SwagLabs_Automation.Checkout_Overview">
+    	<classes>
+			<class name="SwagLabs_Automation.Checkout_Overview"/>
+    	</classes>   
+    </test>
+    <test name="Order_Completion">
+        <classes>
+            <class name="SwagLabs_Automation.Order_Completion"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

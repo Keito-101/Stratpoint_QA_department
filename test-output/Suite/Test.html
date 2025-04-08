@@ -1,0 +1,325 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>49/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 07 15:54:41 PST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>256 seconds (256992 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Overview.testcase50()'><b>testcase50</b><br>Test class: SwagLabs_Automation.Checkout_Overview</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Overview@3c9754d8</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_Page_Verification.Testcase31()'><b>Testcase31</b><br>Test class: SwagLabs_Automation.Cart_Page_Verification</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Cart_Page_Verification@3857f613</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_detail.test_case24()'><b>test_case24</b><br>Test class: SwagLabs_Automation.Product_detail</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Product_detail@7c6908d7</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Overview.Testcase52()'><b>Testcase52</b><br>Test class: SwagLabs_Automation.Checkout_Overview</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Checkout_Overview@3c9754d8</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Login_functionality.testCase7_BlankPassword()'><b>testCase7_BlankPassword</b><br>Test class: SwagLabs_Automation.Login_functionality</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Login_functionality@4d1c00d0</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Login_functionality.testCase4_WrongPassword()'><b>testCase4_WrongPassword</b><br>Test class: SwagLabs_Automation.Login_functionality</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Login_functionality@4d1c00d0</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_detail.test_case27()'><b>test_case27</b><br>Test class: SwagLabs_Automation.Product_detail</td>
+<td></td>
+<td>22</td>
+<td>SwagLabs_Automation.Product_detail@7c6908d7</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_Listing.testCase11_ProductListingPageAccess()'><b>testCase11_ProductListingPageAccess</b><br>Test class: SwagLabs_Automation.Product_Listing</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Product_Listing@198b6731</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_detail.test_case23()'><b>test_case23</b><br>Test class: SwagLabs_Automation.Product_detail</td>
+<td></td>
+<td>22</td>
+<td>SwagLabs_Automation.Product_detail@7c6908d7</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase42()'><b>Testcase42</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Overview.Testcase49()'><b>Testcase49</b><br>Test class: SwagLabs_Automation.Checkout_Overview</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Overview@3c9754d8</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Login_functionality.testCase3_GeneralSetupVerification()'><b>testCase3_GeneralSetupVerification</b><br>Test class: SwagLabs_Automation.Login_functionality</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Login_functionality@4d1c00d0</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_functionality.Test_case20()'><b>Test_case20</b><br>Test class: SwagLabs_Automation.Cart_functionality</td>
+<td></td>
+<td>3</td>
+<td>SwagLabs_Automation.Cart_functionality@1fa121e2</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_Page_Verification.Testcase28()'><b>Testcase28</b><br>Test class: SwagLabs_Automation.Cart_Page_Verification</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Cart_Page_Verification@3857f613</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase43()'><b>Testcase43</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase47()'><b>Testcase47</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase40()'><b>Testcase40</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase39()'><b>Testcase39</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_Page_Verification.Testcase33()'><b>Testcase33</b><br>Test class: SwagLabs_Automation.Cart_Page_Verification</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Cart_Page_Verification@3857f613</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_Page_Verification.Testcase29()'><b>Testcase29</b><br>Test class: SwagLabs_Automation.Cart_Page_Verification</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Cart_Page_Verification@3857f613</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_Listing.testCase12_AllProductsDisplayed()'><b>testCase12_AllProductsDisplayed</b><br>Test class: SwagLabs_Automation.Product_Listing</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Product_Listing@198b6731</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Overview.Testcase51()'><b>Testcase51</b><br>Test class: SwagLabs_Automation.Checkout_Overview</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Overview@3c9754d8</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_Listing.testCase14_AddToCartButtonFunctionality()'><b>testCase14_AddToCartButtonFunctionality</b><br>Test class: SwagLabs_Automation.Product_Listing</td>
+<td></td>
+<td>22</td>
+<td>SwagLabs_Automation.Product_Listing@198b6731</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Order_Completion.Testcase5354()'><b>Testcase5354</b><br>Test class: SwagLabs_Automation.Order_Completion</td>
+<td></td>
+<td>2</td>
+<td>SwagLabs_Automation.Order_Completion@79079097</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_Listing.testCase17_SortByPriceLowToHigh()'><b>testCase17_SortByPriceLowToHigh</b><br>Test class: SwagLabs_Automation.Product_Listing</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Product_Listing@198b6731</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase45()'><b>Testcase45</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Order_Completion.Testcase5556()'><b>Testcase5556</b><br>Test class: SwagLabs_Automation.Order_Completion</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Order_Completion@79079097</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_detail.test_case25()'><b>test_case25</b><br>Test class: SwagLabs_Automation.Product_detail</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Product_detail@7c6908d7</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Login_functionality.testCase10_LockedOutUser()'><b>testCase10_LockedOutUser</b><br>Test class: SwagLabs_Automation.Login_functionality</td>
+<td></td>
+<td>23</td>
+<td>SwagLabs_Automation.Login_functionality@4d1c00d0</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Overview.Testcase48()'><b>Testcase48</b><br>Test class: SwagLabs_Automation.Checkout_Overview</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Checkout_Overview@3c9754d8</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase38()'><b>Testcase38</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Login_functionality.testCase8_BlankFields()'><b>testCase8_BlankFields</b><br>Test class: SwagLabs_Automation.Login_functionality</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Login_functionality@4d1c00d0</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_Page_Verification.Testcase34()'><b>Testcase34</b><br>Test class: SwagLabs_Automation.Cart_Page_Verification</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Cart_Page_Verification@3857f613</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_Listing.testCase18_SortByPriceHighToLow()'><b>testCase18_SortByPriceHighToLow</b><br>Test class: SwagLabs_Automation.Product_Listing</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Product_Listing@198b6731</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_detail.test_case26()'><b>test_case26</b><br>Test class: SwagLabs_Automation.Product_detail</td>
+<td></td>
+<td>2</td>
+<td>SwagLabs_Automation.Product_detail@7c6908d7</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_functionality.Testcase22()'><b>Testcase22</b><br>Test class: SwagLabs_Automation.Cart_functionality</td>
+<td></td>
+<td>5</td>
+<td>SwagLabs_Automation.Cart_functionality@1fa121e2</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_functionality.Testcase21()'><b>Testcase21</b><br>Test class: SwagLabs_Automation.Cart_functionality</td>
+<td></td>
+<td>2</td>
+<td>SwagLabs_Automation.Cart_functionality@1fa121e2</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase46()'><b>Testcase46</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase41()'><b>Testcase41</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Login_functionality.testCase5_WrongUsername()'><b>testCase5_WrongUsername</b><br>Test class: SwagLabs_Automation.Login_functionality</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Login_functionality@4d1c00d0</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase37()'><b>Testcase37</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_Page_Verification.Testcase30()'><b>Testcase30</b><br>Test class: SwagLabs_Automation.Cart_Page_Verification</td>
+<td></td>
+<td>28</td>
+<td>SwagLabs_Automation.Cart_Page_Verification@3857f613</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Login_functionality.testCase9_SuccessfulLogin()'><b>testCase9_SuccessfulLogin</b><br>Test class: SwagLabs_Automation.Login_functionality</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Login_functionality@4d1c00d0</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_Listing.testCase13_VerifyProductDetails()'><b>testCase13_VerifyProductDetails</b><br>Test class: SwagLabs_Automation.Product_Listing</td>
+<td></td>
+<td>2</td>
+<td>SwagLabs_Automation.Product_Listing@198b6731</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_functionality.Test_case19()'><b>Test_case19</b><br>Test class: SwagLabs_Automation.Cart_functionality</td>
+<td></td>
+<td>3</td>
+<td>SwagLabs_Automation.Cart_functionality@1fa121e2</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Product_Listing.testCase15_SortByNameZtoA()'><b>testCase15_SortByNameZtoA</b><br>Test class: SwagLabs_Automation.Product_Listing</td>
+<td></td>
+<td>1</td>
+<td>SwagLabs_Automation.Product_Listing@198b6731</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Cart_Page_Verification.Testcase36()'><b>Testcase36</b><br>Test class: SwagLabs_Automation.Cart_Page_Verification</td>
+<td></td>
+<td>25</td>
+<td>SwagLabs_Automation.Cart_Page_Verification@3857f613</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Checkout_Process_Verification.Testcase44()'><b>Testcase44</b><br>Test class: SwagLabs_Automation.Checkout_Process_Verification</td>
+<td></td>
+<td>0</td>
+<td>SwagLabs_Automation.Checkout_Process_Verification@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabs_Automation.Login_functionality.testCase6_BlankUsername()'><b>testCase6_BlankUsername</b><br>Test class: SwagLabs_Automation.Login_functionality</td>
+<td></td>
+<td>22</td>
+<td>SwagLabs_Automation.Login_functionality@4d1c00d0</td></tr>
+</table><p>
+</body>
+</html>
