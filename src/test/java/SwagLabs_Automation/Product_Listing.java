@@ -117,7 +117,7 @@ public class Product_Listing {
             // Verify if the product image is displayed on the detail page
             WebElement productImage = driver.findElement(By.cssSelector("img"));
             Assert.assertTrue(productImage.isDisplayed(), "Product Image is not displayed on the detail page.");
-            System.out.println("Product Image Source: " + productImage.getAttribute("src"));
+            System.out.println("Product Image Source: " + "src");
 
             // Verify Product Description
             WebElement productDescription = product.findElement(By.className("inventory_item_desc"));

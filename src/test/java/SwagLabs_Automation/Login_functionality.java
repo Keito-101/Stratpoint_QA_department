@@ -160,10 +160,6 @@ public class Login_functionality {
 
     @Test
     public void testCase7_BlankPassword() throws IOException {
-        // Define file path and sheet name
-        String filePath = "C:\\Users\\Nicos\\eclipse-workspace\\Stratpoint_QA_department\\TestData\\Credentials.xlsx";
-        String sheetName = "Sheet1";
-
         // Fetch the username "standard_user"
         String username = "standard_user";
 

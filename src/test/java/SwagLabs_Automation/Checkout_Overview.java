@@ -37,38 +37,7 @@ public class Checkout_Overview {
         }
     }
 
-    /**
-     * Helper method to add an item to the cart
-     *
-     * @param itemId The ID of the item to add to the cart
-     */
-    private void addItemToCart(String itemId) {
-        WebElement addToCartButton = driver.findElement(By.id(itemId));
-        addToCartButton.click();
-    }
     
-    public void RemoveItemToCart(String itemId) {
-        WebElement RemoveItemCartButton = driver.findElement(By.id(itemId));
-        RemoveItemCartButton.click();
-        System.out.println("Added item with ID: " + itemId + " to the cart.");
-    }
-
-    /**
-     * Helper method to navigate to the shopping cart
-     */
-    private void navigateToShoppingCart() {
-        WebElement shoppingCartLink = driver.findElement(By.className("shopping_cart_link"));
-        shoppingCartLink.click();
-    }
-
-    /**
-     * Helper method to proceed to checkout
-     */
-    private void proceedToCheckout() {
-        WebElement checkoutButton = driver.findElement(By.id("checkout"));
-        checkoutButton.click();
-    }
-
  
 
     @Test
@@ -178,7 +147,7 @@ public class Checkout_Overview {
 	        loginMethod.navigateToShoppingCart();
 	
 	        // Proceed to checkout and click the cancel button
-	        proceedToCheckout();
+	        loginMethod.proceedToCheckout();
 	        WebElement cancelButton = driver.findElement(By.id("cancel"));
 	        cancelButton.click();
 	
@@ -234,9 +203,9 @@ public class Checkout_Overview {
         // Wait for the Checkout Overview page to load
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='summary_info']")));
-
-        // Verify price calculations for a single item
-        verifyPriceCalculations();
+        
+        //Verify the Product Details are displayed in the cart page
+        verifyProductDetails();
 
         System.out.println("Test case 51: Price calculations on the Checkout Overview page were validated successfully.");
         

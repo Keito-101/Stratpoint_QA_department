@@ -1,6 +1,5 @@
 package SwagLabs_Automation;
 
-import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
